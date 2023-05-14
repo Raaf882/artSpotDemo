@@ -35,6 +35,13 @@
                     @endauth
                 </div>
             @endif
+            
+            <div class="hidden fixed top-0 right-50 px-6 py-4 sm:block">
+                    <a href="{{ route('admin_login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Admin Log in</a>
+
+                    <a href="{{ route('seller_login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Seller Log in</a>
+
+            </div>
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
